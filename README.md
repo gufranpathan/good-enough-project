@@ -30,7 +30,7 @@ The project structure distinguishes three kinds of folders:
 ├── data               <- All project data, ignored by git
 │   ├── raw            <- The original, immutable data dump
 │   ├── processed      <- Intermediate data that has been transformed
-│   └── output         <- Outputs used in the paper (model coefficients, plots, summary statistics, tables)
+│   └── output         <- Outputs used in manuscript or reports 
 │        ├── figures   <- Figures for the manuscript or reports
 │        └── tables    <- Tables for the manuscript or reports 
 └── src                <- Source code for this project
