@@ -25,24 +25,15 @@ The project structure distinguishes three kinds of folders:
 ```
 .
 ├── .gitignore
-├── CITATION.md
-├── LICENSE.md
 ├── README.md
 ├── requirements.txt
-├── bin                <- Compiled and external code, ignored by git (PG)
-│   └── external       <- Any external source code, ignored by git (RO)
-├── config             <- Configuration files (HW)
 ├── data               <- All project data, ignored by git
-│   ├── processed      <- The final, canonical data sets for modeling. (PG)
-│   ├── raw            <- The original, immutable data dump. (RO)
-│   └── temp           <- Intermediate data that has been transformed. (PG)
-├── docs               <- Documentation notebook for users (HW)
-│   ├── manuscript     <- Manuscript source, e.g., LaTeX, Markdown, etc. (HW)
-│   └── reports        <- Other project reports and notebooks (e.g. Jupyter, .Rmd) (HW)
-├── results
-│   ├── figures        <- Figures for the manuscript or reports (PG)
-│   └── output         <- Other output for the manuscript or reports (PG)
-└── src                <- Source code for this project (HW)
+│   ├── raw            <- The original, immutable data dump
+│   ├── processed      <- Intermediate data that has been transformed
+│   └── output         <- Outputs used in the paper (model coefficients, plots, summary statistics, tables)
+│        ├── figures   <- Figures for the manuscript or reports
+│        └── tables    <- Tables for the manuscript or reports 
+└── src                <- Source code for this project
 
 ```
 
